@@ -9,8 +9,10 @@ public class TwoSets {
         solve(n);
     }
 
-    private static void solve(int n) {
+    private static void solve(int n) throws Exception {
         long sum = n*(n+1)/2;
+        if(n % 4 != 0) bw.write("NO SOLUTION\n");
+        //Solution exists
         return;
     }
 }
