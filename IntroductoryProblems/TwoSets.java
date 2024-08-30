@@ -10,6 +10,7 @@ public class TwoSets {
     }
 
     private static void solve(int n) {
-
+        long sum = n*(n+1)/2;
+        return;
     }
 }
